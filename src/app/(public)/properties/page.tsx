@@ -410,6 +410,11 @@ export default function PropertiesPage() {
                       </span>
                     </div>
 
+                    {/* Title */}
+                    <h3 className="font-semibold text-gray-900 text-base mb-1 group-hover:text-primary transition-colors">
+                      {property.title}
+                    </h3>
+
                     {/* Address */}
                     <p className="text-sm text-gray-500 mb-4">
                       {property.address}
